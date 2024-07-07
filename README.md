@@ -7,7 +7,6 @@
 
 *한국어 LLM의 힘을 극대화하세요! 🇰🇷✨*
 
-</div>
 
 ## 📚 목차
 - [프로젝트 개요](#-프로젝트-개요)
@@ -70,27 +69,17 @@ unsloth-project/
 
 ## 💻 사용 방법
 
-1. **환경 설정**
+1. **데이터 준비**
    ```bash
-   pip install -r requirements.txt
+   python fine_tunning-dataset.py
    ```
 
-2. **데이터 준비**
+2. **모델 학습**
    ```bash
-   python scripts/preprocess.py
+   trainer.train()
    ```
 
-3. **모델 학습**
-   ```bash
-   python unsloth.py
-   ```
-
-4. **결과 평가**
-   ```bash
-   python scripts/evaluate.py
-   ```
-
-5. **모델 배포**
+3. **모델 배포**
    ```python
    model.push_to_hub_merged(
        "your-repo-name",
