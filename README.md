@@ -1,6 +1,5 @@
 # 🚀 Unsloth로 가속화된 한국어 LLM 파인튜닝 프로젝트
 
-<div align="center">
 
 ![Project Logo](https://via.placeholder.com/150)
 
@@ -134,6 +133,5 @@ unsloth-project/
 
 ---
 
-<div align="center">
   <sub>Built with ❤️ by [정강빈] and contributors</sub>
-</div>
+
