@@ -49,24 +49,6 @@ pip install "unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git"
 pip install --no-deps packaging ninja einops flash-attn xformers trl peft accelerate bitsandbytes
 ```
 
-## 📁 파일 구조
-
-```
-unsloth-project/
-│
-├── unsloth.py          # 메인 학습 스크립트
-├── data/               # 데이터셋 폴더
-│   └── custom_dataset.json
-├── models/             # 저장된 모델 폴더
-│   └── fine_tuned_model/
-├── outputs/            # 학습 출력 및 로그
-├── scripts/            # 유틸리티 스크립트
-│   ├── preprocess.py
-│   └── evaluate.py
-├── requirements.txt    # 프로젝트 의존성
-└── README.md           # 프로젝트 문서
-```
-
 ## 💻 사용 방법
 
 1. **데이터 준비**
