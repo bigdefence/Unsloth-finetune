@@ -71,7 +71,7 @@ unsloth-project/
 
 1. **데이터 준비**
    ```bash
-   python fine_tunning-dataset.py
+   fine_tunning-dataset.ipynb
    ```
 
 2. **모델 학습**
